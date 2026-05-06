@@ -58,3 +58,7 @@ age: 30,
 
 person["name"] = "halima";
 console.log(person["name"]);
+
+//array
+let colors = ["red", "green", "blue"];
+console.log(colors);
