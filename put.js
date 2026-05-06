@@ -41,7 +41,7 @@ let person={
     }
 console.log(person);
 
-// renaming an object
+// renaming an using dt notation object
 let person={
 name:"charl",
 age: 30,
@@ -49,3 +49,12 @@ age: 30,
 
 person.name="hashm";
 console.log(person.name);
+
+//renaming an aobject using bracket notation
+let person={
+name:"charl",
+age: 30,
+}
+
+person["name"] = "halima";
+console.log(person["name"]);
