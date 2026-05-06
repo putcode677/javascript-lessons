@@ -67,3 +67,10 @@ console.log(colors);
 console.log(colors[0]); // red
 console.log(colors[1]); // green
 console.log(colors[2]); // blue
+
+//modifying array elements
+colors[1] = "yellow";
+console.log(colors); // ["red", "yellow", "blue"]
+
+//array length
+console.log(colors.length); // 3
