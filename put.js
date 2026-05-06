@@ -82,3 +82,7 @@ console.log(colors); // ["red", "yellow", "blue", "purple"]
 //removing the last element of the array
 colors.pop();
 console.log(colors); // ["red", "yellow", "blue"]
+
+//adding an element to the beginning of the array
+colors.unshift("orange");
+console.log(colors); // ["orange", "red", "yellow", "blue"]
