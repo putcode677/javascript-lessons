@@ -78,3 +78,7 @@ console.log(colors.length); // 3
 //adding an element to the end of the array
 colors.push("purple");
 console.log(colors); // ["red", "yellow", "blue", "purple"]
+
+//removing the last element of the array
+colors.pop();
+console.log(colors); // ["red", "yellow", "blue"]
