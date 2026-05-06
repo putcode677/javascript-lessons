@@ -86,3 +86,7 @@ console.log(colors); // ["red", "yellow", "blue"]
 //adding an element to the beginning of the array
 colors.unshift("orange");
 console.log(colors); // ["orange", "red", "yellow", "blue"]
+
+//removing the first element of the array
+colors.shift();
+console.log(colors); // ["red", "yellow", "blue"]
