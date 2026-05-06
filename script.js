@@ -27,4 +27,9 @@ function addTask() {
   input.value = "";
 }
 
-document.getElementById("para").innerHTML="My first work in javascript";
+
+let para = document.getElementById("para");
+
+para.innerHTML = "My first work in javascript";
+para.style.color = "purple";
+para.style.fontSize = "15px";
