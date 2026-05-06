@@ -26,3 +26,5 @@ function addTask() {
   document.getElementById("taskList").appendChild(li);
   input.value = "";
 }
+
+document.getElementById("para").innerHTML="My first work in javascript";
