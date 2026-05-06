@@ -40,3 +40,12 @@ let person={
    
     }
 console.log(person);
+
+// renaming an object
+let person={
+name:"charl",
+age: 30,
+}
+
+person.name="hashm";
+console.log(person.name);
