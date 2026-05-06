@@ -74,3 +74,7 @@ console.log(colors); // ["red", "yellow", "blue"]
 
 //array length
 console.log(colors.length); // 3
+
+//adding an element to the end of the array
+colors.push("purple");
+console.log(colors); // ["red", "yellow", "blue", "purple"]
