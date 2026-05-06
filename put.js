@@ -62,3 +62,8 @@ console.log(person["name"]);
 //array
 let colors = ["red", "green", "blue"];
 console.log(colors);
+
+//accessing array elements
+console.log(colors[0]); // red
+console.log(colors[1]); // green
+console.log(colors[2]); // blue
