@@ -90,3 +90,19 @@ console.log(colors); // ["orange", "red", "yellow", "blue"]
 //removing the first element of the array
 colors.shift();
 console.log(colors); // ["red", "yellow", "blue"]
+
+
+//javascrpt functions
+function add(a, b) {
+    return a + b;
+}
+
+console.log(add(5, 3)); // 8
+
+function greet(name) {
+    return "Hello, " + name + "!";
+}
+
+console.log(greet("Alice")); // Hello, Alice!
+
+
