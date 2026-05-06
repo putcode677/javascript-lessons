@@ -1,0 +1,6 @@
+#addButton:hover{
+    background-color: #c6cc89;
+    color: rgb(9, 2, 2);
+    border: none;
+    cursor: pointer;
+}

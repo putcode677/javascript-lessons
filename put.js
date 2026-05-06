@@ -33,3 +33,10 @@ function greet(name){
     return "Hello, " + name;
     greet=("charl");
 }
+
+let person={
+    name:"charl",
+    age: 30,
+   
+    }
+console.log(person);
