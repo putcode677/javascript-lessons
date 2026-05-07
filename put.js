@@ -149,15 +149,35 @@ const letters = Array.from('hello'); // ['h', 'e', 'l', 'l', 'o']
 // Array.of()
 const mixed = Array.of(1, 'two', true, null); // [1, 'two', true, null]
 
-        const arr = ['a', 'b', 'c', 'd'];
+        
+            // Iterating over an array
+const nums = [1, 2, 3, 4, 5];
 
-arr[0];          // 'a'
-arr.at(-1);      // 'd' (last element)
-arr[1] = 'B';    // modify: ['a', 'B', 'c', 'd']
-arr.length;      // get length: 4
+// for...of
+for (const n of nums) console.log(n);
+
+// forEach
+nums.forEach((n, i) => console.log(i, n));
+
+// Classic for loop
+for (let i = 0; i < nums.length; i++) console.log(nums[i]);
 
 
+            // Array methods for transformation and reduction
+const nums = [1, 2, 3, 4, 5];
 
+// map — transform each element
+nums.map(n => n * 2);            // [2, 4, 6, 8, 10]
+
+// filter — keep matching elements
+nums.filter(n => n % 2 === 0);   // [2, 4]
+
+// reduce — accumulate to single value
+nums.reduce((sum, n) => sum + n, 0); // 15
+
+// flat & flatMap
+[[1, 2], [3, 4]].flat();             // [1, 2, 3, 4]
+nums.flatMap(n => [n, n * 2]);       // [1, 2, 2, 4, 3, 6, ...]
 
 
 
