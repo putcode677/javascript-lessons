@@ -111,7 +111,26 @@ const add = (a, b) => a + b;
 console.log(add(5, 3)); // 8
 
 const greet = name => "Hello, " + name + "!";
-console.log(greet("Alice")); // Hello, Alice!
+console.log(greet("Alice")); // Hello, Alice!rrr
+
+
+//object method
+let person = {
+    first_name: "Alice",
+    last_name:"moshi",
+    age:"27",
+
+    my_details: function() {
+        return "my name is" +" "+this.first_name + "  " + this.last_name + 
+        "  " + "i ahave "+this.age +"years old :";
+    }
+};
+
+console.log(person.my_details()); 
+
+
+
+
 
 
 
