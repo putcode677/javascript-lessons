@@ -129,6 +129,27 @@ let person = {
 console.log(person.my_details()); 
 
 
+//array method
+let numbers = [1, 2, 3, 4, 5];
+
+// using map to create a new array with squared values
+
+let squaredNumbers = numbers.map(num => num * num);
+console.log(squaredNumbers); // [1, 4, 9, 16, 25]
+
+// Array literal
+const fruits = ['apple', 'banana', 'cherry'];
+
+// Array constructor
+const numbers = new Array(1, 2, 3, 4, 5);
+
+// Array.from()
+const letters = Array.from('hello'); // ['h', 'e', 'l', 'l', 'o']
+
+// Array.of()
+const mixed = Array.of(1, 'two', true, null); // [1, 'two', true, null]
+
+
 
 
 
