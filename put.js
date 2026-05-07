@@ -180,6 +180,17 @@ nums.reduce((sum, n) => sum + n, 0); // 15
 nums.flatMap(n => [n, n * 2]);       // [1, 2, 2, 4, 3, 6, ...]
 
 
+            // Array methods for searching and testing
+const arr = [10, 20, 30, 40, 50];
+
+arr.indexOf(30);              // 2
+arr.includes(20);             // true
+arr.find(n => n > 25);        // 30
+arr.findIndex(n => n > 25);   // 2
+arr.some(n => n > 40);        // true
+arr.every(n => n > 5);        // true
+
+
 
 
 
