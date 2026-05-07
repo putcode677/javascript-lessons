@@ -149,6 +149,16 @@ const letters = Array.from('hello'); // ['h', 'e', 'l', 'l', 'o']
 // Array.of()
 const mixed = Array.of(1, 'two', true, null); // [1, 'two', true, null]
 
+        const arr = ['a', 'b', 'c', 'd'];
+
+arr[0];          // 'a'
+arr.at(-1);      // 'd' (last element)
+arr[1] = 'B';    // modify: ['a', 'B', 'c', 'd']
+arr.length;      // get length: 4
+
+
+
+
 
 
 
