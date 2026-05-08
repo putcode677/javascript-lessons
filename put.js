@@ -209,7 +209,13 @@ const merged  = [...a, ...b];        // [1, 2, 3, 4, 5, 6]
 const sliced  = a.slice(1, 3);       // [2, 3] (non-mutating)
 const joined  = a.concat(b);         // [1, 2, 3, 4, 5, 6]
 
+// Array methods for filling and modifying
+const arr = [1, 2, 3, 4, 5];
 
+arr.fill(0);                      // [0, 0, 0, 0, 0]
+arr.fill(9, 1, 4);                // [1, 9, 9, 9, 5]
+
+arr.copyWithin(0, 3);             // [4, 5, 3, 4, 5] (copies last two to start)
 
 
 
