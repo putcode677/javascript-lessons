@@ -200,6 +200,14 @@ const nums = [10, 1, 5, 3];
 nums.sort((a, b) => a - b);          
 nums.sort((a, b) => b - a);            
 
+// Array methods for copying and combining
+const a = [1, 2, 3];
+const b = [4, 5, 6];
+
+const copy    = [...a];              // [1, 2, 3]
+const merged  = [...a, ...b];        // [1, 2, 3, 4, 5, 6]
+const sliced  = a.slice(1, 3);       // [2, 3] (non-mutating)
+const joined  = a.concat(b);         // [1, 2, 3, 4, 5, 6]
 
 
 
