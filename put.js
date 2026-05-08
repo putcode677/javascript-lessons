@@ -225,5 +225,18 @@ const [first, second, ...rest] = [1, 2, 3, 4, 5];
 let x = 1, y = 2;
 [x, y] = [y, x]; // x = 2, y = 1
 
+// Array methods for joining and testing
+[1, 2, 3].join(' - ');         // '1 - 2 - 3'
+Array.isArray([1, 2]);         // true
+Array.isArray('hello');        // false
+
+// Fill
+new Array(5).fill(0);          // [0, 0, 0, 0, 0]
+
+// Keys, values, entries
+const arr = ['a', 'b', 'c'];
+[...arr.entries()]; // [[0,'a'], [1,'b'], [2,'c']]
+
+
 
 
