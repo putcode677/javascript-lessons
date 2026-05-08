@@ -217,7 +217,13 @@ arr.fill(9, 1, 4);                // [1, 9, 9, 9, 5]
 
 arr.copyWithin(0, 3);             // [4, 5, 3, 4, 5] (copies last two to start)
 
+// Destructuring assignment
+const [first, second, ...rest] = [1, 2, 3, 4, 5];
+// first = 1, second = 2, rest = [3, 4, 5]
 
+// Swap variables
+let x = 1, y = 2;
+[x, y] = [y, x]; // x = 2, y = 1
 
 
 
