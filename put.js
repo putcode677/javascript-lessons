@@ -106,7 +106,7 @@ function greet(name) {
 console.log(greet("Alice")); // Hello, Alice!
 
 
-//arrow function
+        //arrow function
 const add = (a, b) => a + b;
 console.log(add(5, 3)); // 8
 
@@ -114,7 +114,7 @@ const greet = name => "Hello, " + name + "!";
 console.log(greet("Alice")); // Hello, Alice!rrr
 
 
-//object method
+        //object method
 let person = {
     first_name: "Alice",
     last_name:"moshi",
@@ -129,18 +129,18 @@ let person = {
 console.log(person.my_details()); 
 
 
-//array method
+        //array method
 let numbers = [1, 2, 3, 4, 5];
 
-// using map to create a new array with squared values
+        // using map to create a new array with squared values
 
 let squaredNumbers = numbers.map(num => num * num);
 console.log(squaredNumbers); // [1, 4, 9, 16, 25]
 
-// Array literal
+        // Array literal
 const fruits = ['apple', 'banana', 'cherry'];
 
-// Array constructor
+        // Array constructor
 const numbers = new Array(1, 2, 3, 4, 5);
 
 // Array.from()
@@ -190,6 +190,15 @@ arr.findIndex(n => n > 25);   // 2
 arr.some(n => n > 40);        // true
 arr.every(n => n > 5);        // true
 
+
+// Array methods for sorting and reversing
+const letters = ['banana', 'apple', 'cherry'];
+letters.sort();                       
+letters.reverse();                     
+
+const nums = [10, 1, 5, 3];
+nums.sort((a, b) => a - b);          
+nums.sort((a, b) => b - a);            
 
 
 
