@@ -269,3 +269,8 @@ if (items.length > 0) console.log("Items exist."); // Output: Items exist.
 let age = 16;
 if (age >= 18) console.log("You can vote.");
 else console.log("You are too young to vote."); // Output: You are too young to vote.
+
+//exmp2
+let username = "";
+if (username) console.log("User logged in.");
+else console.log("No user found."); // Output: No user found.
