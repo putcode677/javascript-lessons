@@ -296,3 +296,9 @@ let age = 25;
 if (age < 18) console.log("You are a minor.");
 else if (age < 65) console.log("You are an adult."); // Output: You are an adult.
 else console.log("You are a senior.");
+
+//exmp2
+let score = 85;
+if (score >= 90) console.log("A");
+else if (score >= 80) console.log("B"); // Output: B
+else console.log("C");
