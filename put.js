@@ -257,3 +257,8 @@ if (score > 80) console.log("Pass"); // Output: Pass
 //exmp4
 let isReady = true;
 if (isReady) console.log("Start!"); // Output: Start!
+
+
+//exmp5
+let items = [1, 2];
+if (items.length > 0) console.log("Items exist."); // Output: Items exist.
