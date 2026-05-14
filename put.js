@@ -279,3 +279,7 @@ else console.log("No user found."); // Output: No user found.
 let score = 75;
 if (score > 80) console.log("Pass");
 else console.log("Fail"); // Output: Fail
+
+//exmp4
+let isLoggedIn = false;
+if (isLoggedIn) console.log("Welcome!"); else console.log("Please log in."); // Output: Please log in.
