@@ -262,3 +262,10 @@ if (isReady) console.log("Start!"); // Output: Start!
 //exmp5
 let items = [1, 2];
 if (items.length > 0) console.log("Items exist."); // Output: Items exist.
+
+
+//If...else statement
+//exmp1
+let age = 16;
+if (age >= 18) console.log("You can vote.");
+else console.log("You are too young to vote."); // Output: You are too young to vote.
