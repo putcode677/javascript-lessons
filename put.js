@@ -283,3 +283,8 @@ else console.log("Fail"); // Output: Fail
 //exmp4
 let isLoggedIn = false;
 if (isLoggedIn) console.log("Welcome!"); else console.log("Please log in."); // Output: Please log in.
+
+//exmp5
+let items = [];
+if (items.length > 0) console.log("Items exist.");
+else console.log("No items found.");
