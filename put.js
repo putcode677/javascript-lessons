@@ -288,3 +288,11 @@ if (isLoggedIn) console.log("Welcome!"); else console.log("Please log in."); // 
 let items = [];
 if (items.length > 0) console.log("Items exist.");
 else console.log("No items found.");
+
+
+//If...else if...else statement
+//exmp1
+let age = 25;
+if (age < 18) console.log("You are a minor.");
+else if (age < 65) console.log("You are an adult."); // Output: You are an adult.
+else console.log("You are a senior.");
