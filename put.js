@@ -249,3 +249,6 @@ if (age >= 18) console.log("You can vote."); // Output: You can vote.
 let username = "Admin";
 if (username) console.log("User logged in."); // Output: User logged in.
 
+//exmp3
+let score = 90;
+if (score > 80) console.log("Pass"); // Output: Pass
