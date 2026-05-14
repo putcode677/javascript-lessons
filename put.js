@@ -241,7 +241,11 @@ const arr = ['a', 'b', 'c'];
 
 //CONDITIONS
 //If statement
+//exmp1
 let age = 20;
 if (age >= 18) console.log("You can vote."); // Output: You can vote.
 
+//exmp2
+let username = "Admin";
+if (username) console.log("User logged in."); // Output: User logged in.
 
