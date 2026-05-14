@@ -274,3 +274,8 @@ else console.log("You are too young to vote."); // Output: You are too young to 
 let username = "";
 if (username) console.log("User logged in.");
 else console.log("No user found."); // Output: No user found.
+
+//exmp3
+let score = 75;
+if (score > 80) console.log("Pass");
+else console.log("Fail"); // Output: Fail
