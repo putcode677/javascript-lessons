@@ -239,4 +239,9 @@ const arr = ['a', 'b', 'c'];
 
 
 
+//CONDITIONS
+//If statement
+let age = 20;
+if (age >= 18) console.log("You can vote."); // Output: You can vote.
+
 
