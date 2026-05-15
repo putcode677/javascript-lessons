@@ -316,3 +316,9 @@ if (userAge >= 18 && hasLicense) {
   console.log("User is allowed to rent a car.");
 }
 
+//exmp5
+let day = "Sunday";
+if (day === "Saturday" || day === "Sunday") {
+  console.log("It's the weekend!");
+}
+
