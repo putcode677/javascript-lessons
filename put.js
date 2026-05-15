@@ -290,7 +290,7 @@ if (items.length > 0) console.log("Items exist.");
 else console.log("No items found.");
 
 
-//If...else if...else statement
+//If...else statement
 //exmp1
 let age = 25;
 if (age < 18) console.log("You are a minor.");
@@ -302,3 +302,17 @@ let score = 85;
 if (score >= 90) console.log("A");
 else if (score >= 80) console.log("B"); // Output: B
 else console.log("C");
+
+//exmp3
+let hour = 14;
+if (hour < 12) console.log("Morning");
+else if (hour < 18) console.log("Afternoon"); // Output: Afternoon
+else console.log("Evening");
+
+//exmp4
+let userAge = 21;
+let hasLicense = true;
+if (userAge >= 18 && hasLicense) {
+  console.log("User is allowed to rent a car.");
+}
+
